@@ -351,6 +351,7 @@ MonkeyPatchManager::init([
 	'exit_exception_classname' => 'CIPHPUnitTestExitException',
 ]);
 */
+require __DIR__ . '/psysh'; # Add this line.
 
 /*
  * -------------------------------------------------------------------

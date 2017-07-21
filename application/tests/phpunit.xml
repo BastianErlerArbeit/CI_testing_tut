@@ -16,6 +16,11 @@
 			<directory suffix=".php">../libraries</directory>
 			<directory suffix=".php">../helpers</directory>
 			<directory suffix=".php">../hooks</directory>
+			<exclude>
+				<directory suffix=".php">../views/errors</directory>
+				<file>../controllers/Dbfixture.php</file>
+				<file>../libraries/Seeder.php</file>
+			</exclude>
 		</whitelist>
 	</filter>
 	<logging>
